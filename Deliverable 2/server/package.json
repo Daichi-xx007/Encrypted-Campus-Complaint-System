@@ -1,0 +1,22 @@
+{
+  "name": "escms-server",
+  "version": "1.0.0",
+  "description": "Encrypted Smart Complaint Management System — Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.0",
+    "helmet": "^8.0.0",
+    "sql.js": "^1.11.0",
+    "uuid": "^11.0.3"
+  }
+}
